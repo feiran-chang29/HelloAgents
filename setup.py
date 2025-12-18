@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 # 从pyproject.toml读取配置，这里提供一个简化版本
 setup(
-    name="hello-agents",
+    name="my-hello-agents",
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
     packages=find_packages(include=['hello_agents*']),
